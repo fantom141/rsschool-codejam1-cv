@@ -92,12 +92,15 @@ body {
 .main-info__row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+}
+
+.main-info__side {
+    width: calc(50% - 25px);
 }
 
 /*--part--*/
 .main-info__part {
-    width: calc(50% - 25px);
+    margin-bottom: 35px;
 }
 
 .part__header {
@@ -111,6 +114,7 @@ body {
     padding-bottom: 5px;
     font-size: 26px;
     font-weight: normal;
+    line-height: normal;
     color: #d3a950;
     text-transform: uppercase;
     border-bottom: 2px solid #d3a950;
