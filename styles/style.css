@@ -85,19 +85,19 @@ body {
 
 /*-------------main-info----------*/
 .main-info {
-    display: flex;
-    justify-content: space-between;
     padding: 35px;
     box-sizing: border-box;
 }
 
-.main-info__column {
-    width: calc(50% - 25px);
+.main-info__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 /*--part--*/
 .main-info__part {
-    margin-bottom: 30px;
+    width: calc(50% - 25px);
 }
 
 .part__header {
