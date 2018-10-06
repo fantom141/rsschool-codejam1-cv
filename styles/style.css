@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font: normal 12px "Roboto", sans-serif;
+    color: #7d7d7d;
+    background: #181712;
+}
+
+.wrapper {
+    width: 992px;
+    margin: 0 auto;
+}
+
+.promo {
+    width: 100%;
+    height: 590px;
+    background: url("../img/photo.jpg");
+    background-size: 100% auto;
+}
