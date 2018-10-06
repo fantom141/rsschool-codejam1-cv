@@ -35,6 +35,7 @@ body {
     padding: 100px 0 0 35px;
     font-family: "Tinos", serif;
     font-size: 40px;
+    line-height: normal;
     color: #ffffff;
 }
 
@@ -43,6 +44,7 @@ body {
     padding-left: 35px;
     font-family: "Tinos", serif;
     font-size: 66px;
+    line-height: normal;
     color: #d3a950;
 }
 
